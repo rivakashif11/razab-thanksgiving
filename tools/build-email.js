@@ -33,7 +33,7 @@ const S = {
 /* ---------------- building blocks ---------------- */
 const mso = (inner) => `<!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->\n${inner}\n      <!--[if mso]></td></tr></table><![endif]-->`;
 // Outer margins (outside the 600px column) are always SIDE_BG; the inner 600px table keeps the section's own colour.
-const SIDE_BG = '#3E4E38';
+const SIDE_BG = '#D8C8B4';
 // A thin honey edge dresses up the seam between the chestnut margin and each section's own colour.
 const EDGE = `border-left:3px solid ${C.honey}; border-right:3px solid ${C.honey};`;
 const band = (bg, rows) => `
